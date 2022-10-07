@@ -1,0 +1,42 @@
+.inputBar {
+  padding-left: 20px;
+  width: 300px;
+  height: 35px;
+  border-radius: 7px;
+  border: 0.5px solid #97dae1c0;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+.inputBar:hover {
+  border: #97d9e1;
+}
+.inputBar:focus {
+  outline: none;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #989898;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.botonBuscar {
+  color: rgb(255, 255, 255);
+  background-color: #97dae1c0;
+  height: 35px;
+  border-radius: 7px;
+  border: 0.5px solid #97dae1c0;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.botonBuscar:focus {
+  outline: none;
+}
+
+.botonBuscar:hover {
+  background-color: #97dae1;
+}
